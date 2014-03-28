@@ -1,0 +1,42 @@
+{
+    "version": "1.0",
+    "name": "FireDrums",
+    "description": "A drums for your Firefox OS",
+    "launch_path": "/index.html",
+    "icons": {
+        "16": "/img/icons/logo-16.png",
+        "32": "/img/icons/logo-32.png",
+        "48": "/img/icons/logo-48.png",
+        "60": "/img/icons/logo-60.png",
+        "64": "/img/icons/logo-64.png",
+        "90": "/img/icons/logo-90.png",
+        "120": "/img/icons/logo-120.png",
+        "128": "/img/icons/logo-128.png"
+    },
+    "developer": {
+        "name": "Raphael Agneli",
+        "url": "http://www.agneli.com/"
+    },
+    "installs_allowed_from": ["*"],
+    "locales": {
+        "en": {
+            "description": "A drums for your Firefox OS.",
+            "developer": {
+                "url": "http://www.agneli.com/"
+            }
+        },
+        "pt": {
+            "description": "Uma bateria para seu Firefox OS.",
+            "developer": {
+                "url": "http://www.agneli.com/"
+            }
+        },
+        "es": {
+            "description": "Una batería para su Firefox OS. ",
+            "developer": {
+                "url": "http://www.agneli.com/"
+            }
+        }
+    },
+    "default_locale": "en"
+}

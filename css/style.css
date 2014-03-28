@@ -1,0 +1,133 @@
+* {
+    padding:0;
+    margin:0;
+    outline: none;
+}
+
+body {
+    background: url("../img/bg1.jpg");
+    font-family: "Arial Black";
+    font-size: 0.7em;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+a {
+    display: block;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+a span {
+    display: inline-block;
+    margin-top:70%;
+    display: block;
+}
+
+.drum {
+    background: url("../img/drum.png") no-repeat;
+    background-size: 100%;
+    color: #666;
+}
+
+.hat {
+    background: url("../img/hat.png") no-repeat;
+    background-size: 100%;
+    color: #cca;
+}
+
+#kick-1 {
+    width: 30%;
+    top: 55%;
+    left: 20%;
+    z-index: 0;
+}
+
+#kick-2 {
+    width: 30%;
+    top: 55%;
+    right: 20%;
+    z-index: 0;
+}
+
+#snare {
+    width: 25%;
+    top: 30%;
+    left: 37.5%;
+    z-index: 10;
+}
+
+#tom-1 {
+    width: 20%;
+    top: 25%;
+    left: 22%;
+    z-index: 20;
+}
+
+#tom-2 {
+    width: 22.5%;
+    top: 5%;
+    left: 38.7%;
+    z-index: 20;
+}
+
+#tom-3 {
+    width: 22.5%;
+    top: 21%;
+    left: 59%;
+    z-index: 20;
+}
+
+#floor {
+    width: 25%;
+    top: 40%;
+    left: 80%;
+    z-index: 0;
+}
+
+#splash {
+    width: 20%;
+    top: 0%;
+    left: 22%;
+    z-index: 40;
+}
+
+#crash-1 {
+    width: 25%;
+    top: 10%;
+    left: 0%;
+    z-index: 30;
+}
+
+#crash-2 {
+    width: 25%;
+    top: -10%;
+    left: 60%;
+    z-index: 40;
+}
+
+#hat-close {
+    width: 22.5%;
+    top: 40%;
+    left: 0%;
+    z-index: 20;
+}
+
+#hat-open {
+    width: 22.5%;
+    top: 65%;
+    left: 0%;
+    z-index: 10;
+}
+
+#ride {
+    width: 25%;
+    top: 10%;
+    left: 80%;
+    z-index: 30;
+}
+
